@@ -1,7 +1,7 @@
 // Load Model
 var model;
 async function load_model(){
-    MODEL_URL = 'http://kcarrig.github.io/js//model/model.json';
+    MODEL_URL = 'https://kcarrig.github.io/js//model/model.json';
     model = await tf.loadLayersModel(MODEL_URL);
     console.log('Tensorflow Model Loaded')
 }
