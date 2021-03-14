@@ -6,7 +6,71 @@
 .mug5 {color:#00a29d;}
 .mug6{color:#18bc9c;}
 
-.card {display:inline-block;}
+
+.cardrow {
+    width: 95%;
+    display: flex;
+    padding: 10px;
+    justify-content: center
+}
+
+@media (max-width: 494px) {
+    .cardrow {
+        flex-direction: column
+    }
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px
+}
+
+.card_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 9px 30px -6px rgba(24, 206, 15, 0.3);
+    position: relative;
+    transition: transform .4s
+}
+
+.fas,
+.fab {
+    display: inline-block;
+    position: absolute;
+    color: #63b563;
+    transform: translate(-52%, 75%);
+    font-size: 40px
+}
+
+.card_title {
+    font-size: 20px;
+    margin: 12px;
+    font-weight: bold;
+    color: #000000a8;
+    transition: color .2s
+}
+
+.card:hover .card_title {
+    color: #4bd482
+}
+
+.card:hover .card_img {
+    transform: translate(0px, -10px)
+}
+
+.card_body {
+    color: #8c9490;
+    font-size: 16px;
+    padding: 0 5px;
+    line-height: 1.5;
+    word-spacing: 4px
+}
+
 
 input {
   outline: 0;
