@@ -6,6 +6,8 @@
 .mug5 {color:#00a29d;}
 .mug6{color:#18bc9c;}
 
+.card {display:inline-block;}
+
 input {
   outline: 0;
   border-width: 0 0 2px;
