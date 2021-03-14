@@ -1,8 +1,8 @@
 input {
   outline: 0;
-  border-width: 0 0 2px;
-  border-color: blue
+  border-width: 0 0 6px;
+  border-color: 18bc9c;
 }
 input:focus {
-  border-color: green
+  border-color: 2c3e50;
 }
