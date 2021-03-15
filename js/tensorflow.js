@@ -21,12 +21,14 @@ load_encoder();
 var input_area = document.getElementById('inpt_search');
 
 // Event Listener: Hit Submit if Users Clicks Enter
+/*
 input_area.addEventListener("keyup",function (event) {
     if (event.keyCode == 13){
       console.log ("Enter Button Hit!")
       document.getElementById('submit_button').click();
     }
 });
+*/
 
 input_area.addEventListener("click",function (event) {
   document.getElementById('inpt_search').innerText="";
