@@ -49,7 +49,7 @@ submit_button.addEventListener("click", async function (event){
 
   console.log(formatted_prediction);
   //document.getElementById('embeddings').innerText=formatted_embeddings;
-  document.getElementById('prediction1').innerHTML+='<h6 class="mt-3">'+Math.round(formatted_prediction[0]*100)+"% Match</h6>";
+  document.getElementById('prediction1').innerHTML+='<h6 class="mt-3">'+Math.round(formatted_prediction[0]*100)+'% Match</h6>';
 
   //document.getElementById('prediction').innerText=formatted_prediction;
 
