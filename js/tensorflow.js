@@ -29,7 +29,7 @@ input_area.addEventListener("keyup",function (event) {
 });
 
 input_area.addEventListener("click",function (event) {
-  document.getElementById('input_search').innerText="";
+  document.getElementById('inpt_search').innerText="";
   const elements = document.getElementsByClassName("pred");
   while (elements.length > 0) elements[0].remove();
 });
