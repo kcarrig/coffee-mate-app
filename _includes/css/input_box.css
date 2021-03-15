@@ -6,6 +6,15 @@
 .mug5 {color:#00a29d;}
 .mug6{color:#18bc9c;}
 
+ul {
+    list-style-type: none;
+    margin-left: 37%;
+    padding: 0
+}
+
+.rating {
+    margin-left: 37%
+}
 
 .pricing-card {
     flex-direction: column;
