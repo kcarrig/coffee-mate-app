@@ -50,15 +50,11 @@ submit_button.addEventListener("click", async function (event){
   console.log(formatted_prediction);
   //document.getElementById('embeddings').innerText=formatted_embeddings;
   document.getElementById('prediction1').innerHTML+='<h6 class="mt-3">'+Math.round(formatted_prediction[0]*100)+'% Match</h6>';
-
-  //document.getElementById('prediction').innerText=formatted_prediction;
-
-  //document.getElementById('pred1').innerText=Math.round(formatted_prediction[0]*100);
-  //document.getElementById('pred2').innerText=Math.round(formatted_prediction[1]*100);
-  //document.getElementById('pred3').innerText=Math.round(formatted_prediction[2]*100);
-  //document.getElementById('pred4').innerText=Math.round(formatted_prediction[3]*100);
-  //document.getElementById('pred5').innerText=Math.round(formatted_prediction[4]*100);
-  //document.getElementById('pred6').innerText=Math.round(formatted_prediction[5]*100);
+  document.getElementById('prediction2').innerHTML+='<h6 class="mt-3">'+Math.round(formatted_prediction[5]*100)+'% Match</h6>';
+  document.getElementById('prediction3').innerHTML+='<h6 class="mt-3">'+Math.round(formatted_prediction[1]*100)+'% Match</h6>';
+  document.getElementById('prediction4').innerHTML+='<h6 class="mt-3">'+Math.round(formatted_prediction[4]*100)+'% Match</h6>';
+  document.getElementById('prediction5').innerHTML+='<h6 class="mt-3">'+Math.round(formatted_prediction[3]*100)+'% Match</h6>';
+  document.getElementById('prediction6').innerHTML+='<h6 class="mt-3">'+Math.round(formatted_prediction[2]*100)+'% Match</h6>';
 
 });
 
