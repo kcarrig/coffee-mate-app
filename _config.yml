@@ -48,11 +48,11 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 347.443.0760
+  - line: Arlington, VA 22201
 
 # Credits content
-credits: 'Trained with <a href="https://colab.research.google.com/">Google Colab</a>. Deployed with <a href="https://www.tensorflow.org/js">TensorflowJS</a>. Hosted by <a href="https://pages.github.com/">Github Pages</a>.'
+credits: 'Trained with <a href="https://colab.research.google.com/">Google Colab</a> Deployed with <a href="https://www.tensorflow.org/js">TensorflowJS</a> Hosted by <a href="https://pages.github.com/">Github Pages</a>'
 
 # Build settings
 markdown: kramdown
