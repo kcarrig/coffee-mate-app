@@ -7,70 +7,28 @@
 .mug6{color:#18bc9c;}
 
 
-.cardrow {
-    width: 95%;
-    display: flex;
-    padding: 10px;
-    justify-content: center
-}
-
-@media (max-width: 494px) {
-    .cardrow {
-        flex-direction: column
-    }
-}
-
-.card {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.pricing-card {
     flex-direction: column;
-    align-items: center;
-    margin: 10px
+    min-width: 0;
+    color: #000;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
 }
 
-.card_img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    box-shadow: 0 9px 30px -6px rgba(24, 206, 15, 0.3);
-    position: relative;
-    transition: transform .4s
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #314666 !important;
+    border-color: #314666 !important
 }
-
-.fas,
-.fab {
-    display: inline-block;
-    position: absolute;
-    color: #63b563;
-    transform: translate(-52%, 75%);
-    font-size: 40px
-}
-
-.card_title {
-    font-size: 20px;
-    margin: 12px;
-    font-weight: bold;
-    color: #000000a8;
-    transition: color .2s
-}
-
-.card:hover .card_title {
-    color: #4bd482
-}
-
-.card:hover .card_img {
-    transform: translate(0px, -10px)
-}
-
-.card_body {
-    color: #8c9490;
-    font-size: 16px;
-    padding: 0 5px;
-    line-height: 1.5;
-    word-spacing: 4px
-}
-
 
 input {
   outline: 0;
