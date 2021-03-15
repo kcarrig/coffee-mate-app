@@ -17,7 +17,7 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
@@ -33,30 +33,26 @@ color:
 # Footer settings
 footer:
   copyright: Dr. Henry Jekyll
-  location: Location
+  location: Contact Me
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: envelope
+    url: mailto:kevincarrig1@gmail.com
+  - title: user
+    url: https://kcarrig.github.io/me/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/kcarrig
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Phone: 347.443.0760
+  - line: Email: kevincarrig1@gmail.com
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Trained with <a href="https://colab.research.google.com/">Google Colab</a>. Deployed with <a href="https://www.tensorflow.org/js">TensorflowJS</a>. Hosted by <a href="https://pages.github.com/">Github Pages</a>.'
 
 # Build settings
 markdown: kramdown
