@@ -8,5 +8,5 @@
 <h3 align="center">
     <b>CoffeeMate</b>
 </h3>
-    <p align="center"> Browser-based Model with TensorflowJS </p>
-    <p align="center"> Get recommendations based on your favorite cup of coffee </p>
+    <p align="center"> Browser-based Model With TensorflowJS </p>
+    <p align="center"> Get Recommendations Based On Your Favorite Cup Of Coffee </p>
